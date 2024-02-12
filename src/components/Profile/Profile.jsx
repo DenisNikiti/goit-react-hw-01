@@ -20,16 +20,16 @@ function Profile({
 
       <ul className={css.stats}>
         <li>
-          <span className="label">Followers</span>
-          <span className="value">{followers}</span>
+          <span className={css.label}>Followers</span>
+          <span className={css.value}>{followers}</span>
         </li>
         <li>
-          <span className="label">Views</span>
-          <span className="value">{views}</span>
+          <span className={css.label}>Views</span>
+          <span className={css.value}>{views}</span>
         </li>
         <li>
-          <span className="label">Likes</span>
-          <span className="value">{likes}</span>
+          <span className={css.label}>Likes</span>
+          <span className={css.value}>{likes}</span>
         </li>
       </ul>
     </div>

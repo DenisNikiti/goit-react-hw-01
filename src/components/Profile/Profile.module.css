@@ -9,5 +9,13 @@
 
 .stats {
   list-style: none;
-  display: flexbox;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.value {
+  display: block;
+}
+.label {
+  margin-right: 5px;
 }

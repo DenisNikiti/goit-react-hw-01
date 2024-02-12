@@ -1,0 +1,12 @@
+.tablebody {
+  background-color: aquamarine;
+  border: 10px solid aqua;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px;
+}
+.tablebody:not(:last-child) {
+  margin-right: 20px;
+}
+.tablerow {
+}
