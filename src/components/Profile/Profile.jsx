@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
 
+import css from "./Profile.module.css";
+
 function Profile({
   name,
   tag,
@@ -8,15 +10,15 @@ function Profile({
   stats: { followers, views, likes },
 }) {
   return (
-    <div className="profile">
+    <div className={css.profile}>
       <div className="description">
         <img src={image} alt="User avatar" className="avatar" />
         <p className="name">{name}</p>
-        <p className="tag">@{tag}</p>
-        <p className="location">{location}</p>
+        <p className={css.text}>@{tag}</p>
+        <p className={css.text}>{location}</p>
       </div>
 
-      <ul className="stats">
+      <ul className={css.stats}>
         <li>
           <span className="label">Followers</span>
           <span className="value">{followers}</span>

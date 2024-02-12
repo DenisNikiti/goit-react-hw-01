@@ -1,0 +1,13 @@
+.profile {
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.text {
+  color: aqua;
+}
+
+.stats {
+  list-style: none;
+  display: flexbox;
+}
